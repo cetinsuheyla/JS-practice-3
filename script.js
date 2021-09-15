@@ -5,7 +5,7 @@
  * - Set the inner HTML of the article to the existing HTML output provided in const content.
  * - Append each backpack object to the <main> element.
  */
-import backpackObjectArray from "./components/data.js";
+import backpackObjectArray from "./data.js";
 
 const backpackArticle = backpackObjectArray.map((item) => {
   const newArticle = document.createElement("article");
